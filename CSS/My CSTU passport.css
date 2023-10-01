@@ -1,0 +1,62 @@
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: solid;
+    border-color:darkred;
+}
+h4, h5{
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.banner{
+    background-color: indianred;
+    color: azure;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+   
+}
+.banner-info{
+    text-align: center;
+}
+.banner-info img {
+    width: 200px;
+    border-radius: 100%;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+main div{
+    padding: 20px;
+}
+
+main video{
+    width: 50%;
+}
+
+nav{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(burlywood,beige) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.menu {
+    display: flex;
+    list-style: none;
+}
+.menu li{
+    margin-left: 10px;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}

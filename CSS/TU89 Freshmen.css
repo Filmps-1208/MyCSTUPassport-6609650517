@@ -1,0 +1,19 @@
+nav{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(rgb(179, 64, 201), rgb(156, 130, 201));
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.menu {
+    display: flex;
+    list-style: none;
+}
+.menu li{
+    margin-left: 10px;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
